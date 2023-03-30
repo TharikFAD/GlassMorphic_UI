@@ -50,3 +50,7 @@ flutter:
     - family: Morganite
       fonts:
         - asset: fonts/Morganite/Morganite-Medium.ttf
+
+    - family: PeckhamPress
+      fonts:
+        - asset: fonts/PECKHAM PRESS/PeckhamPress-Trial.otf

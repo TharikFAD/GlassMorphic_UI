@@ -1,7 +1,10 @@
 // ignore_for_file: prefer_const_constructors, sized_box_for_whitespace, prefer_const_literals_to_create_immutables
 
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -29,11 +32,16 @@ class _HomePageState extends State<HomePage> {
               fit: BoxFit.cover,
             ),
           ),
-          // Positioned.fill(
-          //   child: BackdropFilter(
-          //       filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
-          //       child: SizedBox()),
-          // ),
+          Container(
+            height: size.height,
+            width: size.width,
+            color: Colors.black.withOpacity(0.5),
+          ),
+          Positioned.fill(
+            child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+                child: SizedBox()),
+          ),
           SafeArea(
               child: Column(
             children: [
@@ -43,19 +51,20 @@ class _HomePageState extends State<HomePage> {
               Text(
                 "Let's GO",
                 style: TextStyle(
-                    fontSize: 190,
-                    fontWeight: FontWeight.w700,
-                    color: Colors.white),
+                    fontFamily: 'PeckhamPress',
+                    color: Colors.white,
+                    fontSize: 60),
               ),
-              Spacer(
-                flex: 1,
-              ),
-              Text(
-                "Jul 31, 2021 - The perfect Blob Dream Blob Dream Animated GIF for your conversation. ... A bit about selecting colors from my article in @imaginefxmagazine.",
-                style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w700,
-                    color: Colors.white),
+              Spacer(),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 12.0),
+                child: Text(
+                  "Jul 31, 2021 - The perfect Blob Dream Blob Dream Animated GIF for your conversation. ... A bit about selecting colors from my article in @imaginefxmagazine.",
+                  style: TextStyle(
+                      fontFamily: 'PeckhamPress',
+                      color: Colors.white,
+                      fontSize: 16),
+                ),
               )
             ],
           ))

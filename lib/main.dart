@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:modern_ui_design_test/pages/LandingPage/landing_page.dart';
+import 'package:modern_ui_design_test/pages/homepage/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LandingPage(),
+      home: HomePage(),
     );
   }
 }
