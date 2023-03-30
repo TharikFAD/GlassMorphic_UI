@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1386.0782"
+   height="2055.4285"
+   viewBox="0 0 366.73319 543.83212"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient4971">
+      <stop
+         style="stop-color:#8100e4;stop-opacity:1;"
+         offset="0"
+         id="stop4967" />
+      <stop
+         style="stop-color:#bf6aff;stop-opacity:0.56296295;"
+         offset="1"
+         id="stop4969" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4963">
+      <stop
+         style="stop-color:#211443;stop-opacity:1;"
+         offset="0"
+         id="stop4959" />
+      <stop
+         style="stop-color:#7d5be1;stop-opacity:1;"
+         offset="1"
+         id="stop4961" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4868">
+      <stop
+         style="stop-color:#d130d1;stop-opacity:1;"
+         offset="0"
+         id="stop4864" />
+      <stop
+         style="stop-color:#130413;stop-opacity:1;"
+         offset="1"
+         id="stop4866" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient4868"
+       id="linearGradient4870"
+       x1="109.24622"
+       y1="84.409065"
+       x2="-46.998138"
+       y2="25.119402"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient4963"
+       id="linearGradient4965"
+       x1="176.86008"
+       y1="254"
+       x2="319.73508"
+       y2="274.83582"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient4971"
+       id="linearGradient4973"
+       x1="71.210831"
+       y1="452.44684"
+       x2="242.32835"
+       y2="446.9776"
+       gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5022">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g5018"
+         id="use5024" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(46.998136,35.832092)">
+    <g
+       id="g5020"
+       clip-path="url(#clipPath5022)">
+      <g
+         id="g5018">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+           id="rect4975"
+           width="285.75"
+           height="508"
+           x="0"
+           y="0" />
+        <circle
+           style="fill:url(#linearGradient4870);fill-opacity:1;stroke-width:0.246369"
+           id="path1262"
+           cx="47.938431"
+           cy="59.104477"
+           r="94.936569" />
+        <circle
+           style="fill:url(#linearGradient4965);fill-opacity:1;stroke-width:0.185387"
+           id="circle1990"
+           cx="248.29758"
+           cy="254"
+           r="71.4375" />
+        <circle
+           style="fill:url(#linearGradient4973);fill-opacity:1;stroke-width:0.144166"
+           id="circle1992"
+           cx="126.764"
+           cy="452.44684"
+           r="55.553173" />
+      </g>
+    </g>
+  </g>
+</svg>
