@@ -18,3 +18,8 @@ and...! Now, it's the background image of my app.
   Thirdly, I wraped everything with the stack widget (the Underneath layer is obviously the Image). And I've added some blur on top of it!
   Lastly, The contents are placed above the image layer. In code, below the image & blur part.
   
+
+## Pages
+  Right now, there are two pages that are imported to the main.dart file. one is called home_page.dart & the other one is called landing_page.dart  ~~
+  LandingPage looks like a glass kinda UI. on the other hand the HomePage has a unique .GIF on the back ground with a cool looking font in the front.
+  
