@@ -3,8 +3,6 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -25,9 +23,10 @@ class _HomePageState extends State<HomePage> {
             height: size.height,
             width: size.width,
             //child: SvgPicture.asset('assets/blob.svg'),
-            child: Image.network(
+            child: Image.asset(
+              "assets/5Dro.gif",
               //'https://i.gifer.com/74Dv.gif',
-              'https://i.gifer.com/5Dro.gif',
+              //'https://i.gifer.com/5Dro.gif',
               //"",
               fit: BoxFit.cover,
             ),
@@ -39,7 +38,7 @@ class _HomePageState extends State<HomePage> {
           ),
           Positioned.fill(
             child: BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+                filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                 child: SizedBox()),
           ),
           SafeArea(
